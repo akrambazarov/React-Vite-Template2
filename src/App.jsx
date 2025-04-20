@@ -5,7 +5,6 @@ import home3 from './assets/home3.png';
 import i2 from './assets/2.png';
 import i3 from './assets/3.png';
 import i7 from './assets/7.png';
-import vector from './assets/vector.png';
 import i8 from './assets/8.png';
 import i9 from './assets/9.png';
 import f2 from './assets/food2.png'
@@ -45,7 +44,7 @@ function App() {
     <section className="features">
         <div className="container">
             <div className="feature-grid">
-                <img src={vector} alt="Cozy cabin"/>
+                <img src={i2} alt="Cozy cabin"/>
                 <div className="hero-content">
                     <h2 className="section-title">Cozy and Down to Earth Cootage Hotel in Norway</h2>
                     <p className="section-text">
