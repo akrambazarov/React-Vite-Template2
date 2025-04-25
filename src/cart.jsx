@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import { Button } from './assets/button'
 export const Cart = ({img,text,desc}) => {
   return (
@@ -10,5 +11,11 @@ export const Cart = ({img,text,desc}) => {
         <Button/>
     </div>
 </div>
+=======
+
+export const Cart = ({text}) => {
+  return (
+    <div>{text}</div>
+>>>>>>> c16bb234c2e577ffb96e1c70429f040fdb79b817
   )
 }

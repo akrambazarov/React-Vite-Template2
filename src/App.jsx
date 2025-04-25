@@ -13,7 +13,10 @@ import './index.css';
 import Header from './header';
 import Footer from './footer';
 import { Cart } from './cart';
+<<<<<<< HEAD
 import StepsCart from './assets/stepsCart';
+=======
+>>>>>>> c16bb234c2e577ffb96e1c70429f040fdb79b817
 
 function App() {
   return (
@@ -86,6 +89,7 @@ function App() {
         <p className="section-text text-center">There are many variation of rooms you can choose from</p>
         
         <div className="room-grid">
+<<<<<<< HEAD
         <Cart text={"Single Room"} img={i7} desc={'Best for solo travelers. Cozy and comfortable single rooms with all amenities.'} />
         <Cart text={"Double Room"} desc={'Perfect for couples or friends. Spacious rooms with stunning views.'} img={i8}/>
         <Cart text={"Cottage Room "} img={i9} desc={'Ideal for families up to 6 people. Private cottage with full amenities.'} />
@@ -93,6 +97,32 @@ function App() {
         <Cart text={"Santa Room"} desc={'Perfect for couples or friends. Spacious rooms with stunning views.'} img={i8}/>
         <Cart text={"Cottage"} img={i9} desc={'Ideal for families up to 6 people. Private cottage with full amenities.'} />
 
+=======
+            <div className="room-card">
+                <img src={i7} alt="Single Room"/>
+                <div className="room-content">
+                    <h3>Single Room</h3>
+                    <p className="section-text">Best for solo travelers. Cozy and comfortable single rooms with all amenities.</p>
+                    <button className="button button-outline">Learn more</button>
+                </div>
+            </div>
+            <div className="room-card">
+                <img src={i8} alt="Double Room"/>
+                <div className="room-content">
+                    <h3>Double Room</h3>
+                    <p className="section-text">Perfect for couples or friends. Spacious rooms with stunning views.</p>
+                    <button className="button button-outline">Learn more</button>
+                </div>
+            </div>
+            <div className="room-card">
+                <img src={i9} alt="Cottage"/>
+                <div className="room-content">
+                    <h3>Cottage</h3>
+                    <p className="section-text">Ideal for families up to 6 people. Private cottage with full amenities.</p>
+                    <button className="button button-outline">Learn more</button>
+                </div>
+            </div>
+>>>>>>> c16bb234c2e577ffb96e1c70429f040fdb79b817
         </div>
     </section>
 
@@ -101,11 +131,26 @@ function App() {
         <div className="container">
             <h2 className="section-title">How to Get My Room?</h2>
             <div className="booking-steps">
+<<<<<<< HEAD
                 <StepsCart text={'1. Choose a room and date'} desc={'Select your preferred room type and stay dates.'} />
                 <StepsCart text={'2. Check for room availability'} desc={'Contact us via phone or email, ask for availability of your selected dates.'} />
                 <StepsCart text={'3. Enjoy your room'} desc={'Once confirmed, arrive and enjoy your stay with us!'} />
                 <StepsCart text={'4. Choose a room and date'} desc={'Select your preferred room type and stay dates.'} />
 
+=======
+                <div className="step-card">
+                    <h3>1. Choose a room and date</h3>
+                    <p className="section-text">Select your preferred room type and stay dates.</p>
+                </div>
+                <div className="step-card">
+                    <h3>2. Check for room availability</h3>
+                    <p className="section-text">Contact us via phone or email, ask for availability of your selected dates.</p>
+                </div>
+                <div className="step-card">
+                    <h3>3. Enjoy your room</h3>
+                    <p className="section-text">Once confirmed, arrive and enjoy your stay with us!</p>
+                </div>
+>>>>>>> c16bb234c2e577ffb96e1c70429f040fdb79b817
             </div>
             <div className='flex gap-10'>
                 <button className="button">Contact Us</button>
@@ -129,6 +174,12 @@ function App() {
             </div>
         </div>
     </section>
+<<<<<<< HEAD
+=======
+    <Cart text="Salom Hello World"/>
+    <Cart text="Salom  World"/>
+    <Cart text="Salom Hello"/>
+>>>>>>> c16bb234c2e577ffb96e1c70429f040fdb79b817
     <Footer/>
     </div>
     

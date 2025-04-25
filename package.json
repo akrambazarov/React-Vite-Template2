@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "template-vite",
+=======
+  "name": "my-app",
+>>>>>>> c16bb234c2e577ffb96e1c70429f040fdb79b817
   "private": true,
   "version": "0.0.0",
   "type": "module",
